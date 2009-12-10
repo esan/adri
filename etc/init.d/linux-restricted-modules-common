@@ -1,0 +1,24 @@
+#!/bin/sh
+
+test -x /sbin/lrm-manager || exit 0
+
+. /lib/lsb/init-functions
+
+case "$1" in
+	start)
+		log_begin_msg "Preparing restricted drivers..."
+		/sbin/lrm-manager --quick
+		status=$?
+		log_end_msg $status
+		if [ $status -ne 0 ]; then
+			exit $status
+		fi
+	;;
+	stop|restart|reload|force-reload)
+	;;
+	*)
+		echo "Usage: $0 {start}"
+	;;
+esac
+
+exit 0

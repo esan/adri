@@ -1,0 +1,17 @@
+/dev/sda2 / reiserfs rw,relatime,notail 0 0
+tmpfs /lib/init/rw tmpfs rw,nosuid,mode=0755 0 0
+proc /proc proc rw,noexec,nosuid,nodev 0 0
+sysfs /sys sysfs rw,noexec,nosuid,nodev 0 0
+varrun /var/run tmpfs rw,nosuid,mode=0755 0 0
+varlock /var/lock tmpfs rw,noexec,nosuid,nodev,mode=1777 0 0
+udev /dev tmpfs rw,mode=0755 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
+devpts /dev/pts devpts rw,noexec,nosuid,gid=5,mode=620 0 0
+fusectl /sys/fs/fuse/connections fusectl rw 0 0
+lrm /lib/modules/2.6.28-17-generic/volatile tmpfs rw,mode=755 0 0
+/dev/sda3 /home reiserfs rw,relatime 0 0
+/dev/sda1 /windows fuseblk rw,nosuid,nodev,allow_other,blksize=4096 0 0
+securityfs /sys/kernel/security securityfs rw 0 0
+binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,noexec,nosuid,nodev 0 0
+gvfs-fuse-daemon /home/devel-it/.gvfs fuse.gvfs-fuse-daemon rw,nosuid,nodev,user=devel-it 0 0
+/dev/sdb1 /media/disk vfat rw,nosuid,nodev,uhelper=hal,shortname=mixed,uid=1000,utf8,umask=077,flush 0 0

@@ -1,0 +1,6 @@
+# /etc/acpi/events/asus-internet
+# This is called when the user presses the internet button and calls
+# /etc/acpi/hotkey.sh for further processing.
+
+event=hotkey (ATKD|HOTK) 00000051
+action=/etc/acpi/webbtn.sh

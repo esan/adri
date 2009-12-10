@@ -1,0 +1,18 @@
+# This file is sourced from the linux-restricted-modules-common init
+# script and is used to disable the link-on-boot feature, one module
+# at a time.  This can be useful if you want to use hand-compiled
+# versions of one or more modules, but keep linux-restricted-modules
+# installed on your system, or just to disable modules you don't use
+# and speed up your boot process by a second or two.
+#
+# Use a space-separated list of modules you wish to not have linked
+# on boot.  The following example shows a (condensed) list of all
+# modules shipped in the linux-restricted-modules packages:
+#
+# DISABLED_MODULES="madwifi ltm wl"
+#
+# Note that disabling "madwifi" disables all madwifi drivers, "ltm"
+# disables ltmodem and ltserial. You can also name each module
+# individually, if you prefer a subset.
+
+DISABLED_MODULES=""

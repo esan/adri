@@ -1,0 +1,5 @@
+# /etc/acpi/events/panasonic-sleepbtn
+# Called when the user presses the sleep button
+
+event=pcc HKEY 00000080 00000007
+action=/etc/acpi/sleepbtn.sh

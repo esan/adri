@@ -1,0 +1,5 @@
+<device DEVNO="0x0700" TIME="1258797459" TYPE="squashfs">/dev/loop0</device>
+<device DEVNO="0x0801" TIME="1258797459" UUID="2608618808615837" TYPE="ntfs">/dev/sda1</device>
+<device DEVNO="0x0802" TIME="1259874225" UUID="cb82ca16-70e1-4583-860d-19d56749580b" TYPE="reiserfs">/dev/sda2</device>
+<device DEVNO="0x0803" TIME="1258797459" UUID="9878d6eb-3458-47ce-9e80-9cf0d59159d8" TYPE="reiserfs">/dev/sda3</device>
+<device DEVNO="0x0805" TIME="1258797459" UUID="4ca2b012-3796-488f-9fa6-acec25bc0493" TYPE="swap">/dev/sda5</device>

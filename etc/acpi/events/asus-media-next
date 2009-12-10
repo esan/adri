@@ -1,0 +1,6 @@
+# /etc/acpi/events/asus-media-next
+# This is called when the user presses the next media button and calls
+# /etc/acpi/media.sh for further processing.
+
+event=hotkey (ATKD|HOTK) 00000041
+action=/etc/acpi/nextbtn.sh

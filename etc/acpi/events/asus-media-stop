@@ -1,0 +1,6 @@
+# /etc/acpi/events/asus-media-stop
+# This is called when the user presses the stop media button and calls
+# /etc/acpi/media.sh for further processing.
+
+event=hotkey (ATKD|HOTK) 00000043
+action=/etc/acpi/stopbtn.sh

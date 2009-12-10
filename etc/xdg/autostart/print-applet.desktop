@@ -1,0 +1,14 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Print Queue Applet
+Comment=System tray icon for managing print jobs
+Exec=sh -c "sleep 30; exec system-config-printer-applet > /dev/null 2> /dev/null"
+Terminal=false
+Type=Application
+Icon=printer
+NotShowIn=KDE;
+StartupNotify=false
+X-Ubuntu-Gettext-Domain=system-config-printer
+X-Desktop-File-Install-Version=0.15
+Categories=GTK;Monitor;System;

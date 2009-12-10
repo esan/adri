@@ -1,0 +1,3 @@
+# /etc/acpi/events/panasonic-volume-up
+event=pcc HKEY 00000080 00000086
+action=/etc/acpi/volupbtn.sh

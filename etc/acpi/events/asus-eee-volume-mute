@@ -1,0 +1,4 @@
+# Handle Asus Eee PC mute key.
+
+event=hotkey ATKD 00000013
+action=/etc/acpi/if-asus-eee.sh mutebtn.sh 

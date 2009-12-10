@@ -1,0 +1,6 @@
+# /etc/acpi/events/asus-volume-mute
+# This is called when the user presses the mute button and calls
+# /etc/acpi/volume.sh for further processing.
+
+event=hotkey (ATKD|HOTK) 00000032
+action=/etc/acpi/mutebtn.sh 

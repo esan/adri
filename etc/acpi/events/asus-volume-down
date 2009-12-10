@@ -1,0 +1,6 @@
+# /etc/acpi/events/asus-volume-down
+# This is called when the user presses the volume down button and calls
+# /etc/acpi/volume.sh for further processing.
+
+event=hotkey (ATKD|HOTK) 00000031
+action=/etc/acpi/voldownbtn.sh

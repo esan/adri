@@ -1,0 +1,3 @@
+# /etc/acpi/events/panasonic-volume-down
+event=pcc HKEY 00000080 00000085
+action=/etc/acpi/voldownbtn.sh

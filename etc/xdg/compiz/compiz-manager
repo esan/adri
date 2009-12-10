@@ -1,0 +1,7 @@
+# Ubuntu specifc compiz-manager configuration file
+# goes into /etc/xdg/compiz/compiz-manager
+# works with git://anongit.compiz-fusion.org/fusion/misc/compiz-manager
+COMPIZ_BIN_PATH="/usr/bin/" 
+PLUGIN_PATH="/usr/lib/compiz/" 
+COMPIZ_NAME="compiz.real"
+

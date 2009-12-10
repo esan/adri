@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+
+. /usr/lib/grub/update-grub_lib
+if test -e /boot/memtest86+.bin ; then
+  MEMTESTPATH=$( make_system_path_relative_to_its_root "/boot/memtest86+.bin" )
+  echo "Found memtest86+ image: $MEMTESTPATH" >&2
+  cat << EOF
+menuentry "Memory test (memtest86+)" {
+	linux	$MEMTESTPATH
+}
+menuentry "Memory test (memtest86+, serial console 115200)" {
+	linux	$MEMTESTPATH console=ttyS0,115200n8
+}
+EOF
+fi

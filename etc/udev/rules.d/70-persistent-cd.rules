@@ -1,0 +1,11 @@
+# This file maintains persistent names for CD/DVD reader and writer devices.
+# See udev(7) for syntax.
+#
+# Entries are automatically added by the 75-cd-aliases-generator.rules
+# file; however you are also free to add your own entries provided you
+# add the ENV{GENERATED}=1 flag to your own rules as well.
+# DVD+-RW_ND-6650A (pci-0000:00:1f.1-scsi-0:0:1:0)
+ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.1-scsi-0:0:1:0", SYMLINK+="cdrom", ENV{GENERATED}="1"
+ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.1-scsi-0:0:1:0", SYMLINK+="cdrw", ENV{GENERATED}="1"
+ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.1-scsi-0:0:1:0", SYMLINK+="dvd", ENV{GENERATED}="1"
+ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.1-scsi-0:0:1:0", SYMLINK+="dvdrw", ENV{GENERATED}="1"

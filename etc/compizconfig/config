@@ -1,0 +1,11 @@
+[general]
+integration = true
+backend = ini
+
+[gnome_session]
+integration = true
+backend = gconf
+
+[kde_session]
+integration = true
+backend = kconfig

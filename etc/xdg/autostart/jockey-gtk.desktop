@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Check for new hardware drivers
+Comment=Notify about new hardware drivers available for the system
+Icon=jockey
+Exec=sh -c 'test -e /var/cache/jockey/check || exec jockey-gtk --check 60'
+Terminal=false
+Type=Application
+Categories=System;Settings;GTK;HardwareSettings;
+OnlyShowIn=GNOME;XFCE;
+X-Ubuntu-Gettext-Domain=jockey

@@ -1,0 +1,4 @@
+# Handle Asus Eee PC volume down key.
+
+event=hotkey ATKD 00000014
+action=/etc/acpi/if-asus-eee.sh voldownbtn.sh
