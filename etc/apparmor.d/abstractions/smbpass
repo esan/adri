@@ -1,4 +1,0 @@
-# vim:syntax=apparmor
-# libpam-smbpass/pam_smbpass.so permissions
-
-  /var/lib/samba/*.[lt]db rwk,

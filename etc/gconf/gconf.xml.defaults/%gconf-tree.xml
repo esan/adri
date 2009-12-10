@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<dir name="schemas">
-		<dir name="apps">
-		</dir>
-	</dir>
-	<dir name="apps">
-	</dir>
-</gconf>

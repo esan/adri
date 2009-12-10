@@ -1,9 +1,0 @@
-#!/bin/sh
-
-CMD=/usr/sbin/update-apt-xapian-index
-
-# Rebuild the index
-if [ -x $CMD ]
-then
-	$CMD --quiet
-fi

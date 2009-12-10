@@ -1,3 +1,0 @@
-# /etc/acpi/events/video_brightnessdown
-event=video.* 00000087
-action=/etc/acpi/video_brightnessdown.sh

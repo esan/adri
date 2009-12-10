@@ -1,8 +1,0 @@
-# /etc/acpi/events/asus-touchpad
-# This is called when the user presses the touchpad button and calls
-# /etc/acpi/asus-touchpad.sh for further processing.
-#
-# This code has been reported on the Asus A6U, See: Malone #31063
-
-event=hotkey (ATKD|HOTK) 0000006b
-action=/etc/acpi/asus-touchpad.sh

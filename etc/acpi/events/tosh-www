@@ -1,2 +1,0 @@
-event=hkey VAL[DZ] 00000001 00000b06
-action=/etc/acpi/webbtn.sh

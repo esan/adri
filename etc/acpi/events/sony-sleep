@@ -1,4 +1,0 @@
-# /etc/acpi/events/sony-sleep
-
-event=sony/hotkey SPIC 00000001 0000000b
-action=/etc/acpi/sleepbtn.sh 

@@ -1,6 +1,0 @@
-# /etc/acpi/events/asus-lock
-# This is called when the user presses the power management button and calls
-# /etc/acpi/lockbtn.sh for further processing.
-
-event=hotkey (ATKD|HOTK) 0000005c
-action=/etc/acpi/lockbtn.sh

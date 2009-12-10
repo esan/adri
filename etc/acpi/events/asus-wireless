@@ -1,6 +1,0 @@
-# /etc/acpi/events/asus-wireless
-# This is called when the user presses the wireless button and calls
-# /etc/acpi/wireless.sh for further processing.
-
-event=hotkey (ATKD|HOTK) 0000005d
-action=/etc/acpi/asus-wireless.sh

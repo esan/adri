@@ -1,4 +1,0 @@
-# Handle Asus Eee PC volume up key.
-
-event=hotkey ATKD 00000015
-action=/etc/acpi/if-asus-eee.sh volupbtn.sh

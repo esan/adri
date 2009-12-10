@@ -1,2 +1,0 @@
-event=hkey VAL[DZ] 00000001 00000b07
-action=/etc/acpi/mailbtn.sh

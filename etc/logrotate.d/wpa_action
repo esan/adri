@@ -1,7 +1,0 @@
-/var/log/wpa_action.log /var/log/wpa_action.*.log {
-	rotate 5
-	daily
-	compress
-	copytruncate
-	missingok
-}

@@ -1,3 +1,0 @@
-# /etc/acpi/events/panasonic-brightness-down
-event=pcc HKEY 00000080 00000081
-action=/etc/acpi/panabright.sh down

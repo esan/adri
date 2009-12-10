@@ -1,3 +1,0 @@
-# /etc/acpi/events/panasonic-mute
-event=pcc HKEY 00000080 00000084
-action=/etc/acpi/mutebtn.sh

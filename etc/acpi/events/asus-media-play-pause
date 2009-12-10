@@ -1,6 +1,0 @@
-# /etc/acpi/events/asus-media-play-pause
-# This is called when the user presses the play/pause media button and calls
-# /etc/acpi/media.sh for further processing.
-
-event=hotkey (ATKD|HOTK) 00000045
-action=/etc/acpi/playbtn.sh

@@ -1,2 +1,0 @@
-event=hkey VAL[DZ] 00000000 00000b33
-action=/etc/acpi/playbtn.sh

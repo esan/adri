@@ -1,3 +1,0 @@
-# /etc/acpi/events/panasonic-brightness-up
-event=pcc HKEY 00000080 00000082
-action=/etc/acpi/panabright.sh up

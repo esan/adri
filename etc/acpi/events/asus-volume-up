@@ -1,6 +1,0 @@
-# /etc/acpi/events/asus-volume-up
-# This is called when the user presses the volume up button and calls
-# /etc/acpi/volume.sh for further processing.
-
-event=hotkey (ATKD|HOTK) 00000030
-action=/etc/acpi/volupbtn.sh
